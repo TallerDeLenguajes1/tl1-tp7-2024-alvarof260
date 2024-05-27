@@ -1,0 +1,14 @@
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\bin\Debug\net8.0\tl1-tp7-2024-alvarof260.exe
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\bin\Debug\net8.0\tl1-tp7-2024-alvarof260.deps.json
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\bin\Debug\net8.0\tl1-tp7-2024-alvarof260.runtimeconfig.json
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\bin\Debug\net8.0\tl1-tp7-2024-alvarof260.dll
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\bin\Debug\net8.0\tl1-tp7-2024-alvarof260.pdb
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.AssemblyInfoInputs.cache
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.AssemblyInfo.cs
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.csproj.CoreCompileInputs.cache
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.dll
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\refint\tl1-tp7-2024-alvarof260.dll
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.pdb
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.genruntimeconfig.cache
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\ref\tl1-tp7-2024-alvarof260.dll
