@@ -12,3 +12,4 @@ C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1
 C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.pdb
 C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.genruntimeconfig.cache
 C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\ref\tl1-tp7-2024-alvarof260.dll
+C:\Users\Alvaro Figueroa\Documents\facultad\tercer-modulo\taller-lenguajes-1\tl1-tp7-2024-alvarof260\obj\Debug\net8.0\tl1-tp7-2024-alvarof260.sourcelink.json
