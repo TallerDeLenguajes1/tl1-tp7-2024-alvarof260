@@ -50,3 +50,29 @@ Empleado[] empleados = new Empleado[]
     }
 };
 
+double montoTotal = 0;
+Empleado empleadoProximoJubilacion = null;
+int aniosProximoJubilacion = int.MaxValue;
+
+foreach (var empleado in empleados)
+{
+    montoTotal += empleado.calcularSalario();
+
+    if (empleado.jubilarse() < aniosProximoJubilacion)
+    {
+        aniosProximoJubilacion = empleado.jubilarse();
+        empleadoProximoJubilacion = empleado;
+    }
+}
+
+Console.WriteLine($"el monto total es de {montoTotal}\n");
+
+
+if (empleadoProximoJubilacion != null)
+{
+    Console.WriteLine("Empleado más próximo a jubilarse:");
+    Console.WriteLine($"Nombre: {empleadoProximoJubilacion.nombre}");
+    Console.WriteLine($"Apellido: {empleadoProximoJubilacion.apellido}");
+    Console.WriteLine($"Edad: {empleadoProximoJubilacion.calcularEdad()}");
+    Console.WriteLine($"Años restantes para la jubilación: {aniosProximoJubilacion}");
+}
