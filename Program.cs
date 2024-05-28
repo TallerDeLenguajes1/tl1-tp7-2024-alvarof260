@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using EspacioCalculadora;
+/*using EspacioCalculadora;*/
+
 using EspacioCargos;
 using EspacioEmpleado;
 
+/*
 Calculadora calculadora = new Calculadora();
 
 calculadora.sumar(5);
@@ -13,13 +15,38 @@ calculadora.restar(2);
 double resultado = calculadora.resultado;
 Console.WriteLine($"El resultado: {resultado}\n");
 
-Empleado empleado1 = new Empleado();
-
-empleado1.nombre = "Alvaro";
-empleado1.apellido = "Figueroa";
-empleado1.nacimiento = new DateTime(2004, 1, 20);
-empleado1.civil = 'S';
-empleado1.ingreso = new DateTime(2023, 2, 20);
-empleado1.sueldo = 250000.00;
-empleado1.cargo = Cargos.Ingeniero;
+*/
+Empleado[] empleados = new Empleado[]
+{
+    new Empleado
+    {
+        nombre = "Juan",
+        apellido = "Perez",
+        nacimiento = new DateTime(1985, 5, 23),
+        civil = 'S',
+        ingreso = new DateTime(2010, 6, 1),
+        sueldo = 650000,
+        cargo = Cargos.Ingeniero
+    },
+    new Empleado
+    {
+        nombre = "María",
+        apellido = "González",
+        nacimiento = new DateTime(1978, 8, 15),
+        civil = 'C',
+        ingreso = new DateTime(2005, 3, 10),
+        sueldo = 700000,
+        cargo = Cargos.Administrativo
+    },
+    new Empleado
+    {
+        nombre = "Carlos",
+        apellido = "López",
+        nacimiento = new DateTime(1990, 10, 7),
+        civil = 'S',
+        ingreso = new DateTime(2015, 9, 20),
+        sueldo = 600000,
+        cargo = Cargos.Especialista
+    }
+};
 

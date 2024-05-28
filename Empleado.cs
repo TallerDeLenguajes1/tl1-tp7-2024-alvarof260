@@ -59,5 +59,64 @@ namespace EspacioEmpleado
             get => _cargo;
             set => _cargo = value;
         }
+
+        public int calcularAntiguedad()
+        {
+            DateTime actual = DateTime.Now;
+            int antiguedad = actual.Year - _ingreso.Year;
+            if (actual < _ingreso.AddYears(antiguedad))
+            {
+                antiguedad--;
+            }
+
+            return antiguedad;
+        }
+
+        public int calcularEdad()
+        {
+            DateTime actual = DateTime.Now;
+            int edad = actual.Year - _nacimiento.Year;
+            if (actual < _nacimiento.AddYears(edad))
+            {
+                edad--;
+            }
+
+            return edad;
+        }
+
+        public int jubilarse()
+        {
+            const int jubilarse = 65;
+            int edad = calcularEdad();
+            int aniosJubilarse = jubilarse - edad;
+            return 0 > aniosJubilarse ? 0 : aniosJubilarse;
+        }
+
+        public double calcularSalario()
+        {
+            int antiguedad = calcularAntiguedad();
+            double adicional = 0;
+
+            if (antiguedad <= 20)
+            {
+                adicional = _sueldo * (antiguedad * 0.01);
+            }
+            else
+            {
+                adicional = _sueldo * 0.25;
+            }
+
+            if (_cargo == Cargos.Ingeniero || _cargo == Cargos.Investigador)
+            {
+                adicional *= 1.5;
+            }
+
+            if (_civil == 'C')
+            {
+                adicional += 150000;
+            }
+
+            return _sueldo + adicional;
+        }
     }
 }
